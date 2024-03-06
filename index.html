@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PLP Forms Assignment</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <main class="bg-primary"">
+    <form class=" form | fs-400 ff-body wrapper grid">
+    <div class="grid">
+      <label for="client-name">Name:</label>
+      <input class="bg-primary" type="text" name="client-name" id="client-name" required />
+    </div>
+    <div class="grid">
+      <label for="email">Email:</label>
+      <input class="form__email-input | bg-primary" type="email" name="email" id="email" required />
+    </div>
+    <div class="grid">
+      <label for="email">Phone:</label>
+      <input class="form__email-input | bg-primary" type="text" name="phone" id="phone" required />
+    </div>
+    <div class="grid">
+      <label for="email">Course:</label>
+      <input class="form__email-input | bg-primary" type="text" name="course" id="course" required />
+    </div>
+    <div class="grid">
+      <label for="email">Address:</label>
+      <input class="form__email-input | bg-primary" type="text" name="address" id="address" required />
+    </div>
+    <div class="flow">
+      <label for="category">Gender:</label>
+      <div>
+        <input type="radio" name="gender" id="male" value="male" checked />
+        <label for="male">Male</label>
+      </div>
+      <div>
+        <input type="radio" name="gender" id="female" value="female" />
+        <label for="female" class="">Female</label>
+      </div>
+
+    </div>
+    <div>
+      <label for="email">Date of Birth:</label>
+      <input class="bg-primary" type="date" name="date" id="date" required />
+    </div>
+
+    <div class="grid">
+      <button class="bg-accent text-primary btn-primary uppercase" type="submit">
+        Register
+      </button>
+      <button class="text-accent btn-secondary uppercase" type="submit">
+        Cancel
+      </button>
+    </div>
+    </form>
+  </main>
+</body>
